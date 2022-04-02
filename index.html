@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the number</title>
+  </head>
+  <body>
+    <div class="holder">
+      <div class="conten">
+        <h2>Zamislio sam broj od 1 do 15</h2>
+        <h4>Da li možeš da pogodiš koji je to broj?</h4>
+        <input type="text" id="input-number" style="margin-top: 10px" />
+        <div>
+            <button class="btn-guess" style="margin-top: 10px">PROVERI</button>
+        </div>
+      </div>
+      <p id="message"></p>
+      <button class="btn-play-again" id="play-again" style="margin-top: 10px">
+        IGRAJ PONOVO
+      </button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Potreno je uneti broj</p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
